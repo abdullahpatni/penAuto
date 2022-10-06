@@ -13,7 +13,6 @@ function App() {
 			<MidContent />
 			<Socials showLogo={true}  />
 			<LowerContent />
-			{/* <Socials showLogo={false} /> */}
 			<Footer />
 		</div>
 	);

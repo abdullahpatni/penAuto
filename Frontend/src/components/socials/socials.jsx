@@ -11,11 +11,11 @@ function Socials(props) {
 		<div className={props.showLogo ? "socials-container" : ''}>
 			{props.showLogo && <img src={penautoLogo1} className="penautoLogo" />}
 			<div className={(props.showLogo ? "" : "float-right ")  + "socials"}>
-				<img src={facebook} alt="" className="socials-icon" srcset="" />
-				<img src={twitter} alt="" className="socials-icon" srcset="" />
-				<img src={youtube} alt="" className="socials-icon" srcset="" />
-				<img src={linkedin} alt="" className="socials-icon" srcset="" />
-				<img src={instagram} alt="" className="socials-icon" srcset="" />
+				<img src={facebook} alt="" className="socials-icon"  />
+				<img src={twitter} alt="" className="socials-icon"  />
+				<img src={youtube} alt="" className="socials-icon" />
+				<img src={linkedin} alt="" className="socials-icon" />
+				<img src={instagram} alt="" className="socials-icon" />
 			</div>
 		</div>
 	);

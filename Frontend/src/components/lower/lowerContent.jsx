@@ -4,7 +4,7 @@ import "./lowerContent.css";
 function LowerContent() {
 	return (
 		<div className="low-container">
-			<img src={mobileFemale} alt="" srcset="" className="mobileFemale" />
+			<img src={mobileFemale} className="mobileFemale" />
 			<div className="info">
 				<div>
 					<h2 className="vehicle-heading">
