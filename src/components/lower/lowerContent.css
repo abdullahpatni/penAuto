@@ -1,0 +1,53 @@
+.low-container {
+	display: flex;
+	margin-top: 6em;
+	justify-content: space-between;
+}
+
+h2 {
+	color: white;
+}
+
+.info {
+	color: grey;
+	width: 45%;
+}
+
+.mobileFemale {
+	width: 45%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	gap: 1.3em;
+}
+
+.details {
+	background: transparent;
+	border: 1px solid grey;
+	border-radius: 20px;
+	color: white;
+	padding: 1.5em 1em;
+}
+
+.vehicle-heading {
+	font-size: 3em;
+}
+
+.paras {
+	margin-bottom: 2.2em;
+}
+
+@media only screen and (max-width: 760px) {
+	.low-container {
+		display: flex;
+		flex-direction: column;
+		flex-direction: column-reverse;
+	}
+	.mobileFemale {
+		width: 90%;
+		margin-top: 2em;
+	}
+}

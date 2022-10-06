@@ -1,0 +1,36 @@
+.socials-container {
+	display: grid;
+	grid-template-columns: 55% 45%;
+	align-items: center;
+}
+
+.penautoLogo {
+	margin-left: auto;
+}
+
+.socials {
+	margin-top: 0.7em;
+	display: flex;
+	gap: 1em;
+	margin-left: auto;
+}
+
+.socials-icon {
+	height: 23px;
+}
+
+.float-right {
+	float: right;
+}
+
+@media only screen and (max-width: 760px) {
+	.socials-container {
+		display: block;
+	}
+	.penautoLogo {
+		display: none;
+	}
+	.socials {
+		justify-content: center;
+	}
+}

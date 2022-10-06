@@ -1,0 +1,62 @@
+.mid-container {
+	display: flex;
+	margin-top: 6em;
+}
+
+h2 {
+	color: white;
+}
+
+.info {
+	color: grey;
+	width: 45%;
+}
+
+.road {
+	width: 55%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	gap: 1.3em;
+}
+
+.details {
+	background: transparent;
+	border: 1px solid grey;
+	border-radius: 20px;
+	color: white;
+	padding: 1.5em 1em;
+}
+
+.vehicle-heading {
+	font-size: 3em;
+}
+
+.paras {
+	margin-bottom: 2.2em;
+}
+
+@media only screen and (max-width: 760px) {
+	.mid-container {
+		display: block;
+		text-align: center;
+	}
+	.info {
+		width: auto;
+	}
+	.vehicle-heading {
+		font-size: 2em;
+		text-align: center;
+	}
+	form {
+		width: auto;
+	}
+
+	.road {
+		width: 90%;
+		margin-top: 2em;
+	}
+}
