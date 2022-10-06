@@ -31,7 +31,7 @@ TECH STACK FOR BACKEND
 Nodejs,Express,Prisma,Postgresql
 
 
-# FRONT END SETUP LOCAL
+# Backend END SETUP LOCAL
 --------------
 1) Postgresql commands
 
